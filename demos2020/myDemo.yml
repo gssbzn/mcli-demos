@@ -1,0 +1,22 @@
+name: "myDemo2"
+version: 4.0.17-ent
+featureCompatibilityVersion: 4.0
+processes:
+  - hostname: host0
+    dbPath: /data/myDemo2/rs1
+    logPath: /data/myDemo2/rs1/mongodb.log
+    priority: 1
+    votes: 1
+    port: 29010
+  - hostname: host1
+    dbPath: /data/myDemo2/rs2
+    logPath: /data/myDemo2/rs2/mongodb.log
+    priority: 1
+    votes: 1
+    port: 29020
+  - hostname: host2
+    dbPath: /data/myDemo2/rs3
+    logPath: /data/myDemo2/rs3/mongodb.log
+    priority: 1
+    votes: 1
+    port: 29030

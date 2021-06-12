@@ -1,0 +1,185 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/gustavobazan
+
+  # Export additional ENV variables
+  env:
+    recording: true
+
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 110
+
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 20
+
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+
+  # Quality
+  # 1 - 100
+  quality: 100
+
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: MongoDB
+    style:
+      border: 0px black solid
+      boxShadow: none
+      margin: 0px
+
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Fira Mono, Monaco, Lucida Console, Ubuntu Mono, Monospace"
+
+  # The size of the font
+  fontSize: 20
+
+  # The height of lines
+  lineHeight: 1
+
+  # The spacing between letters
+  letterSpacing: 0
+
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+
+# Records, feel free to edit them
+records:
+  - delay: 1079
+    content: "$ "
+  - delay: 470
+    content: m
+  - delay: 201
+    content: o
+  - delay: 206
+    content: 'n'
+  - delay: 470
+    content: g
+  - delay: 470
+    content: o
+  - delay: 470
+    content: c
+  - delay: 470
+    content: l
+  - delay: 470
+    content: i
+  - delay: 470
+    content: ' '
+  - delay: 470
+    content: c
+  - delay: 370
+    content: o
+  - delay: 370
+    content: 'n'
+  - delay: 370
+    content: f
+  - delay: 370
+    content: i
+  - delay: 370
+    content: g
+  - delay: 299
+    content: "\r\n"
+  - delay: 58
+    content: "\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mPublic API Key: \e[0m\e[36m[? for help]\e[0m \e[?25l\e7\e[999;999f\e[6n\e8\e[?25h\e[6n"
+  - delay: 2454
+    content: '1'
+  - delay: 210
+    content: '2'
+  - delay: 258
+    content: '3'
+  - delay: 286
+    content: '4'
+  - delay: 350
+    content: '5'
+  - delay: 1457
+    content: "\e[1D\e[1D\e[1D\e[1D\e[1D\e[1E\e[1F\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mPublic API Key: \e[0m\e[36m12345\e[0m\r\n\e[1;92m? \e[0m\e[1;99mPrivate API Key: \e[0m\e[36m[? for help]\e[0m \e[?25l\e7\e[999;999f\e[6n\e8\e[?25h\e[6n"
+  - delay: 2454
+    content: '*'
+  - delay: 1066
+    content: '*'
+  - delay: 57
+    content: '*'
+  - delay: 117
+    content: '*'
+  - delay: 354
+    content: '*'
+  - delay: 31
+    content: '*'
+  - delay: 21
+    content: '*'
+  - delay: 1514
+    content: "\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1E\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mProject ID [optional]: \e[0m\e[36m[? for help]\e[0m \e[?25l\e7\e[999;999f\e[6n\e8\e[?25h\e[6n"
+  - delay: 6881
+    content: 5e9f088b4797476aa0a5d56a
+  - delay: 1010
+    content: "\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1E\e[1F\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mProject ID [optional]: \e[0m\e[36m5e9f088b4797476aa0a5d56a\e[0m\r\n"
+  - delay: 47
+    content: '$ '
+  - delay: 10000
+    content: "\r\n"

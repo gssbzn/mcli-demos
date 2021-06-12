@@ -1,0 +1,321 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh -l
+
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/gustavobazan
+
+  # Export additional ENV variables
+  env:
+    recording: true
+
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 110
+
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 20
+
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+
+  # Quality
+  # 1 - 100
+  quality: 100
+
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: MongoDB
+    style:
+      border: 0px black solid
+      boxShadow: none
+      margin: 0px
+
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: bar
+
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Fira Mono, Monaco, Lucida Console, Ubuntu Mono, Monospace"
+
+  # The size of the font
+  fontSize: 20
+
+  # The height of lines
+  lineHeight: 1
+
+  # The spacing between letters
+  letterSpacing: 0
+
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+
+# Records, feel free to edit them
+records:
+  - delay: 1162
+    content: "$ "
+  - delay: 300
+    content: m
+  - delay: 300
+    content: o
+  - delay: 300
+    content: 'n'
+  - delay: 300
+    content: g
+  - delay: 300
+    content: o
+  - delay: 300
+    content: c
+  - delay: 300
+    content: l
+  - delay: 300
+    content: i
+  - delay: 300
+    content: ' '
+  - delay: 1823
+    content: o
+  - delay: 300
+    content: m
+  - delay: 300
+    content: ' '
+  - delay: 300
+    content: d
+  - delay: 300
+    content: b
+  - delay: 300
+    content: u
+  - delay: 300
+    content: s
+  - delay: 300
+    content: e
+  - delay: 300
+    content: r
+  - delay: 300
+    content: s
+  - delay: 311
+    content: ' '
+  - delay: 831
+    content: c
+  - delay: 300
+    content: r
+  - delay: 300
+    content: e
+  - delay: 252
+    content: a
+  - delay: 300
+    content: t
+  - delay: 131
+    content: e
+  - delay: 252
+    content: ' '
+  - delay: 252
+    content: '-'
+  - delay: 182
+    content: '-'
+  - delay: 252
+    content: u
+  - delay: 152
+    content: s
+  - delay: 247
+    content: e
+  - delay: 300
+    content: r
+  - delay: 234
+    content: 'n'
+  - delay: 300
+    content: a
+  - delay: 300
+    content: m
+  - delay: 300
+    content: e
+  - delay: 252
+    content: ' '
+  - delay: 252
+    content: t
+  - delay: 239
+    content: e
+  - delay: 203
+    content: s
+  - delay: 252
+    content: t
+  - delay: 252
+    content: ' '
+  - delay: 252
+    content: '-'
+  - delay: 300
+    content: '-'
+  - delay: 479
+    content: r
+  - delay: 237
+    content: o
+  - delay: 300
+    content: l
+  - delay: 300
+    content: e
+  - delay: 252
+    content: ' '
+  - delay: 252
+    content: d
+  - delay: 252
+    content: b
+  - delay: 252
+    content: A
+  - delay: 252
+    content: d
+  - delay: 278
+    content: m
+  - delay: 283
+    content: i
+  - delay: 252
+    content: 'n'
+  - delay: 252
+    content: '@'
+  - delay: 252
+    content: t
+  - delay: 253
+    content: e
+  - delay: 243
+    content: s
+  - delay: 770
+    content: t
+  - delay: 252
+    content: ' '
+  - delay: 300
+    content: '-'
+  - delay: 161
+    content: '-'
+  - delay: 252
+    content: m
+  - delay: 252
+    content: e
+  - delay: 167
+    content: c
+  - delay: 146
+    content: h
+  - delay: 227
+    content: a
+  - delay: 936
+    content: 'n'
+  - delay: 269
+    content: i
+  - delay: 183
+    content: s
+  - delay: 252
+    content: m
+  - delay: 252
+    content: s
+  - delay: 252
+    content: ' '
+  - delay: 252
+    content: S
+  - delay: 253
+    content: C
+  - delay: 252
+    content: R
+  - delay: 282
+    content: A
+  - delay: 197
+    content: M
+  - delay: 252
+    content: '-'
+  - delay: 252
+    content: S
+  - delay: 244
+    content: H
+  - delay: 144
+    content: A
+  - delay: 252
+    content: '-'
+  - delay: 252
+    content: '2'
+  - delay: 252
+    content: '5'
+  - delay: 252
+    content: '6'
+  - delay: 1123
+    content: "\r\n"
+  - delay: 26
+    content: "\e[1;92m? \e[0m\e[1;99mPassword: \e[0m\e[?25l\e7\e[999;999f\e[6n\e8\e[?25h\e[6n"
+  - delay: 2089
+    content: '*'
+  - delay: 121
+    content: '*'
+  - delay: 226
+    content: '*'
+  - delay: 151
+    content: '*'
+  - delay: 185
+    content: '*'
+  - delay: 229
+    content: '*'
+  - delay: 185
+    content: '*'
+  - delay: 203
+    content: '*'
+  - delay: 654
+    content: '*'
+  - delay: 661
+    content: "\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1E"
+  - delay: 1000
+    content: "Changes are being applied, please check http://localhost:8080/v2/5e7bc4067f842e650e6ac75a#deployment/topology for status\r\n$ "
+  - delay: 4000
+    content: "\r\n"
