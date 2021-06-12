@@ -172,4 +172,4 @@ records:
   - delay: 23
     content: "\r\nYour profile is now configured.\r\nYou can use [mongocli config set] to change these settings at a later time.\r\n$ "
   - delay: 4874
-    content: "logout\r\n"
+    content: "\r\n"

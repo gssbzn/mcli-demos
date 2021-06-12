@@ -1,0 +1,231 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh -l
+
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/gustavobazan
+
+  # Export additional ENV variables
+  env:
+    recording: true
+
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 110
+
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 20
+
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+
+  # Quality
+  # 1 - 100
+  quality: 100
+
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: MongoDB
+    style:
+      border: 0px black solid
+      boxShadow: none
+      margin: 0px
+
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: bar
+
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Fira Mono, Monaco, Lucida Console, Ubuntu Mono, Monospace"
+
+  # The size of the font
+  fontSize: 20
+
+  # The height of lines
+  lineHeight: 1
+
+  # The spacing between letters
+  letterSpacing: 0
+
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+
+# Records, feel free to edit them
+records:
+  - delay: 944
+    content: "$ "
+  - delay: 1100
+    content: m
+  - delay: 204
+    content: o
+  - delay: 279
+    content: ng
+  - delay: 109
+    content: o
+  - delay: 107
+    content: c
+  - delay: 105
+    content: l
+  - delay: 184
+    content: i
+  - delay: 93
+    content: ' '
+  - delay: 528
+    content: a
+  - delay: 315
+    content: t
+  - delay: 167
+    content: l
+  - delay: 112
+    content: a
+  - delay: 193
+    content: s
+  - delay: 82
+    content: ' '
+  - delay: 142
+    content: q
+  - delay: 98
+    content: u
+  - delay: 164
+    content: i
+  - delay: 88
+    content: c
+  - delay: 1116
+    content: k
+  - delay: 423
+    content: s
+  - delay: 714
+    content: t
+  - delay: 132
+    content: a
+  - delay: 105
+    content: r
+  - delay: 166
+    content: t
+  - delay: 1379
+    content: "\r\n"
+  - delay: 514
+    content: "\r\n[Set up your Atlas cluster]\r\n\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mCluster Name [Press Enter to use the auto-generated name 'Quickstart-1623525350']: \e[0m\e[36m[? for help]\e[0m \e[37m(Quickstart-1623525350) \e[0m\e[?25l"
+  - delay: 1526
+    content: "\e[?25h\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mCluster Name [Press Enter to use the auto-generated name 'Quickstart-1623525350']: \e[0m\e[36mQuickstart-1623525350\e[0m\r\n\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mCloud Provider:\e[0m  \e[36m[Use arrows to move, type to filter, ? for more help]\e[0m\r\n\e[1;36m> AWS\e[0m\r\n\e[39m  GCP\e[0m\r\n\e[39m  AZURE\e[0m\r\n\e[?25l"
+  - delay: 1019
+    content: "\e[?25h\e[0G\e[2K\e[1A\e[0G\e[2K\e[1A\e[0G\e[2K\e[1A\e[0G\e[2K\e[1A\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mCloud Provider:\e[0m\e[36m AWS\e[0m\r\n"
+  - delay: 782
+    content: "\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mCloud Provider Region:\e[0m  \e[36m[Use arrows to move, type to filter, ? for more help]\e[0m\r\n\e[1;36m> US_EAST_1\e[0m\r\n\e[?25l"
+  - delay: 866
+    content: "\e[?25h\e[0G\e[2K\e[1A\e[0G\e[2K\e[1A\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mCloud Provider Region:\e[0m\e[36m US_EAST_1\e[0m\r\n\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mDo you want to load sample data into Quickstart-1623525350? \e[0m\e[36m[? for help]\e[0m \e[37m(y/N) \e[0m\e[?25l\e7\e[999;999f\e[6n\e8\e[?25h\e[6n"
+  - delay: 2847
+    content: "\e[1B\e[0G\e[1A\e[0G\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mDo you want to load sample data into Quickstart-1623525350? \e[0m\e[36mNo\e[0m\r\n"
+  - delay: 531
+    content: "We are deploying your cluster...\r\n\r\n[Set up your database access details]\r\n\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mDatabase User Username [Press Enter to use 'Quickstart-1623525357']: \e[0m\e[36m[? for help]\e[0m \e[37m(Quickstart-1623525357) \e[0m\e[?25l"
+  - delay: 2824
+    content: "\e[?25h"
+  - delay: 289
+    content: "\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mDatabase User Username [Press Enter to use 'Quickstart-1623525357']: \e[0m\e[36mQuickstart-1623525357\e[0m\r\n\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mDatabase User Password [Press Enter to use an auto-generated password 'U1VwY1JdQWpI']: \e[0m\e[36m[? for help]\e[0m \e[37m(U1VwY1JdQWpI) \e[0m\e[?25l"
+  - delay: 3239
+    content: "\e[?25h\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mDatabase User Password [Press Enter to use an auto-generated password 'U1VwY1JdQWpI']: \e[0m\e[36mU1VwY1JdQWpI\e[0m\r\n"
+  - delay: 512
+    content: "\r\n[Set up your network access list details]\r\n\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mAccess List Entry [Press Enter to use your public IP address '192.168.0.1']: \e[0m\e[36m[? for help]\e[0m \e[37m(192.168.0.1) \e[0m\e[?25l"
+  - delay: 2002
+    content: "\e[?25h\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mAccess List Entry [Press Enter to use your public IP address '192.168.0.1']: \e[0m\e[36m192.168.0.1\e[0m\r\n"
+  - delay: 257
+    content: "\r\n[Connect to your new cluster]\r\n\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mDo you want to access Quickstart-1623525350 with MongoDB Shell? \e[0m\e[36m[? for help]\e[0m \e[37m(y/N) \e[0m\e[?25l\e7\e[999;999f\e[6n\e8\e[?25h\e[6n"
+  - delay: 2308
+    content: "\e[1B\e[0G\e[1A\e[0G\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mDo you want to access Quickstart-1623525350 with MongoDB Shell? \e[0m\e[36mNo\e[0m\r\n\r\nCreating your cluster... [It's safe to 'Ctrl + C']\r\n\r\e[K\r\e[37m|\e[0m "
+  - delay: 100
+    content: "\r\e[K\r\e[37m/\e[0m "
+  - delay: 103
+    content: "\r\e[K\r\e[37m-\e[0m "
+  - delay: 106
+    content: "\r\e[K\r\e[37m\\\e[0m "
+  - delay: 105
+    content: "\r\e[K\r\e[37m|\e[0m "
+  - delay: 100
+    content: "\r\e[K\r\e[37m/\e[0m "
+  - delay: 103
+    content: "\r\e[K\r\e[37m-\e[0m "
+  - delay: 102
+    content: "\r\e[K\r\e[37m\\\e[0m "
+  - delay: 104
+    content: "\r\e[K\r\e[37m|\e[0m "
+  - delay: 103
+    content: "\r\e[K\r\e[37m/\e[0m "
+  - delay: 100
+    content: "\r\e[K\r\e[37m-\e[0m "
+  - delay: 103
+    content: "\r\e[K\r\e[37m\\\e[0m "
+  - delay: 102
+    content: "\r\e[K\r\e[37m|\e[0m "
+  - delay: 102
+    content: "\r\e[K\r\e[37m/\e[0m "
+  - delay: 105
+    content: "\r\e[K\r\e[37m-\e[0m "
+  - delay: 104
+    content: "\r\e[K\r\e[37m\\\e[0m "
+  - delay: 101
+    content: "\r\e[K\r\e[37m|\e[0m "
+  - delay: 28
+    content: "\r\e[K"
+  - delay: 228
+    content: "\r\nNow you can connect to your Atlas cluster with: mongosh -u Quickstart-1623525357 -p U1VwY1JdQWpI mongodb+srv://quickstart-1623525350.vnp8x.mongodb-dev.net\r\n\r\n$ "
+  - delay: 228
+    content: "\n"
