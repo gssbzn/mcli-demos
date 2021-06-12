@@ -1,0 +1,175 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh -l
+
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/gustavobazan
+
+  # Export additional ENV variables
+  env:
+    recording: true
+
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 110
+
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 20
+
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+
+  # Quality
+  # 1 - 100
+  quality: 100
+
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: MongoDB
+    style:
+      border: 0px black solid
+      boxShadow: none
+      margin: 0px
+
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: bar
+
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Fira Mono, Monaco, Lucida Console, Ubuntu Mono, Monospace"
+
+  # The size of the font
+  fontSize: 20
+
+  # The height of lines
+  lineHeight: 1
+
+  # The spacing between letters
+  letterSpacing: 0
+
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+
+# Records, feel free to edit them
+records:
+  - delay: 944
+    content: "$ "
+  - delay: 2271
+    content: m
+  - delay: 233
+    content: o
+  - delay: 235
+    content: 'n'
+  - delay: 125
+    content: g
+  - delay: 90
+    content: o
+  - delay: 137
+    content: c
+  - delay: 75
+    content: l
+  - delay: 244
+    content: i
+  - delay: 979
+    content: ' '
+  - delay: 676
+    content: c
+  - delay: 160
+    content: o
+  - delay: 238
+    content: 'n'
+  - delay: 160
+    content: f
+  - delay: 179
+    content: i
+  - delay: 173
+    content: g
+  - delay: 1189
+    content: "\r\n"
+  - delay: 62
+    content: "You are configuring a profile for mongocli.\r\n\r\nAll values are optional and you can use environment variables (MCLI_*) instead.\r\n\r\nEnter [?] on any option to get help.\r\n\r\n\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mPublic API Key: \e[0m\e[36m[? for help]\e[0m \e[?25l"
+  - delay: 4957
+    content: "\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mPublic API Key: \e[0m\e[36m[? for help]\e[0m V\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mPublic API Key: \e[0m\e[36m[? for help]\e[0m VR\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mPublic API Key: \e[0m\e[36m[? for help]\e[0m VRN\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mPublic API Key: \e[0m\e[36m[? for help]\e[0m VRNX\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mPublic API Key: \e[0m\e[36m[? for help]\e[0m VRNXY\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mPublic API Key: \e[0m\e[36m[? for help]\e[0m VRNXYO\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mPublic API Key: \e[0m\e[36m[? for help]\e[0m VRNXYOF\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mPublic API Key: \e[0m\e[36m[? for help]\e[0m VRNXYOFQ"
+  - delay: 780
+    content: "\e[?25h\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mPublic API Key: \e[0m\e[36mVRNXYOFQ\e[0m\r\n\e[1;92m? \e[0m\e[1;99mPrivate API Key: \e[0m\e[36m[? for help]\e[0m \e[?25l\e7\e[999;999f\e[6n\e8\e[?25h\e[6n"
+  - delay: 5801
+    content: '************************************'
+  - delay: 720
+    content: "\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1D\e[1B\e[0G"
+  - delay: 604
+    content: "\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mChoose a default organization:\e[0m  \e[36m[Use arrows to move, type to filter]\e[0m\r\n\e[1;36m> CLI Atlas (5e429e7706822c6eac4d5970)\e[0m\r\n\e[?25l"
+  - delay: 2061
+    content: "\e[?25h\e[0G\e[2K\e[1A\e[0G\e[2K\e[1A\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mChoose a default organization:\e[0m\e[36m CLI Atlas (5e429e7706822c6eac4d5970)\e[0m\r\n"
+  - delay: 735
+    content: "\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mChoose a default project:\e[0m  \e[36m[Use arrows to move, type to filter]\e[0m\r\n\e[1;36m> Some Project (5e4e593f70dfbf1010295836)\e[0m\r\n\e[39m  CLI tests (5e429f2e06822c6eac4d59c9)\e[0m\r\n\e[39m  Test (607caaa2b4c1fd299fb542be)\e[0m\r\n\e[?25l"
+  - delay: 1518
+    content: "\e[0G\e[2K\e[1A\e[0G\e[2K\e[1A\e[0G\e[2K\e[1A\e[0G\e[2K\e[1A\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mChoose a default project:\e[0m  \e[36m[Use arrows to move, type to filter]\e[0m\r\n\e[39m  Some Project (5e4e593f70dfbf1010295836)\e[0m\r\n\e[1;36m> CLI tests (5e429f2e06822c6eac4d59c9)\e[0m\r\n\e[39m  Test (607caaa2b4c1fd299fb542be)\e[0m\r\n"
+  - delay: 1602
+    content: "\e[?25h\e[0G\e[2K\e[1A\e[0G\e[2K\e[1A\e[0G\e[2K\e[1A\e[0G\e[2K\e[1A\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mChoose a default project:\e[0m\e[36m CLI tests (5e429f2e06822c6eac4d59c9)\e[0m\r\n\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mDefault Output Format:\e[0m  \e[36m[Use arrows to move, type to filter]\e[0m\r\n\e[1;36m> plaintext\e[0m\r\n\e[39m  json\e[0m\r\n\e[?25l"
+  - delay: 3008
+    content: "\e[?25h\e[0G\e[2K\e[1A\e[0G\e[2K\e[1A\e[0G\e[2K\e[1A\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mDefault Output Format:\e[0m\e[36m \e[0m\r\n\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mDefault MongoDB Shell Path: \e[0m\e[36m[? for help]\e[0m \e[37m(/usr/local/bin/mongosh) \e[0m\e[?25l"
+  - delay: 2868
+    content: "\e[?25h\e[0G\e[2K\e[1;92m? \e[0m\e[1;99mDefault MongoDB Shell Path: \e[0m\e[36m/usr/local/bin/mongosh\e[0m\r\n"
+  - delay: 23
+    content: "\r\nYour profile is now configured.\r\nYou can use [mongocli config set] to change these settings at a later time.\r\n$ "
+  - delay: 4874
+    content: "logout\r\n"
